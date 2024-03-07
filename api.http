@@ -1,0 +1,75 @@
+### Indice 
+
+GET http://localhost:3434/api
+
+### obtener todos los cartas astrales
+
+GET http://localhost:3434/api/charts
+
+### obtener todos los usuarios
+
+GET http://localhost:3434/api/users
+
+### Obtener una carta natal ingresando un nombre
+
+GET http://localhost:3434/api/charts/matias arno
+
+### Buscar un usuario por id
+
+GET http://localhost:3434/api/users/0ac7be2d-cddb-4558-a687-4d21b7be7e85
+
+### Agregar una nueva carta astral
+
+POST http://localhost:3434/api/charts
+Content-Type: application/json
+
+{
+"name": "test 1",
+"birthdate": "1-5-12",
+"time": 2123,
+"asc": 214,
+"sun": 347,
+"moon": 332,
+"mercury": 344,
+"venus": 341,
+"mars": 180,
+"jupiter": 310,
+"saturn": 7,
+"uranus": 306,
+"neptune": 299,
+"pluto": 245
+}
+
+### Crear un nuevo user
+
+POST http://localhost:3434/api/users/
+Content-Type: application/json
+
+
+{
+"name": "Lucia",
+"email": "lugmail.com"
+}
+
+### POST para modificar una carta astral
+
+PATCH http://localhost:3434/api/charts/Matias Arno
+Content-Type: application/json
+
+{
+"birthdate": "7-3-2000"
+}
+
+### Borrar una carta astral
+
+DELETE http://localhost:3434/api/charts/Matias Arno
+
+### Updatear un usuario
+
+PATCH http://localhost:3434/api/users/0ac7be2d-cddb-4558-a687-4d21b7be7e85
+
+Content-Type: application/json
+
+{
+    "email": "holaaa@gmail.com"
+}

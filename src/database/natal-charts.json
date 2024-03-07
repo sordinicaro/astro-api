@@ -1,0 +1,53 @@
+{
+  "info": { "name": "Natal charts database", "version": "1.0.0", "charts": 1 },
+  "charts": [
+    {
+      "name": "Bart Simpson",
+      "birthdate": "12-12-12",
+      "time": 2123,
+      "asc": 214,
+      "sun": 347,
+      "moon": 332,
+      "mercury": 344,
+      "venus": 341,
+      "mars": 180,
+      "jupiter": 310,
+      "saturn": 7,
+      "uranus": 306,
+      "neptune": 299,
+      "pluto": 245
+    },
+    {
+      "name": "Kiki Kuku",
+      "birthdate": "1-5-12",
+      "time": 2123,
+      "asc": 214,
+      "sun": 347,
+      "moon": 332,
+      "mercury": 344,
+      "venus": 341,
+      "mars": 180,
+      "jupiter": 310,
+      "saturn": 7,
+      "uranus": 306,
+      "neptune": 299,
+      "pluto": 245
+    },
+    {
+      "name": "test 1",
+      "birthdate": "1-5-12",
+      "time": 2123,
+      "asc": 214,
+      "sun": 347,
+      "moon": 332,
+      "mercury": 344,
+      "venus": 341,
+      "mars": 180,
+      "jupiter": 310,
+      "saturn": 7,
+      "uranus": 306,
+      "neptune": 299,
+      "pluto": 245
+    }
+  ]
+}
